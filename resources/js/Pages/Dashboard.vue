@@ -5,7 +5,6 @@ import Welcome from '@/Jetstream/Welcome.vue';
 
 <template>
     <AppLayout title="Dashboard">
-        <!-- This example requires Tailwind CSS v2.0+ -->
         <div class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto mt-6">
             <div class="sm:flex sm:items-center">
                 <div class="sm:flex-auto">
@@ -57,8 +56,6 @@ import Welcome from '@/Jetstream/Welcome.vue';
                                         <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only">, Lindsay Walton</span></a>
                                     </td>
                                 </tr>
-
-                                <!-- More people... -->
                                 </tbody>
                             </table>
                         </div>

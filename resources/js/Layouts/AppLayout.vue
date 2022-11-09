@@ -58,6 +58,12 @@ const logout = () => {
                             <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <Link :href="route('Todo')" :active="route().current('Todo')" class="mt-7 text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none transition">Add New Todo</Link>
                             </div>
+
+                            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                                <Link :href="route('groups')" :active="route().current('groups')" class="mt-7 text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none transition">Groups</Link>
+                            </div>
+
+
                         </div>
 
                         <div class="hidden sm:flex sm:items-center sm:ml-6">
